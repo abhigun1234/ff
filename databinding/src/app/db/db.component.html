@@ -1,0 +1,19 @@
+
+<label>Enter your user name</label>
+<input type="text"  #username>
+
+<button (click)="login(username.value)" > Login </button>
+
+<p    *ngIf="condition">Show me</p>
+
+<ul  *ngFor= "let fruit of listoffruits" >  
+
+  <ol>
+
+    {{fruit}}
+  </ol>
+</ul>
+
+
+
+
